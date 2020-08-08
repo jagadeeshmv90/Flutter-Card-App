@@ -32,7 +32,7 @@ class MyApplication extends StatelessWidget {
                 letterSpacing: 1.7,
               ),
             ),
-            SizedBox(height: 10,),
+            SizedBox(height: 10.0,),
             Text(
               'FLUTTER LEARNER',
               style: TextStyle(
@@ -41,6 +41,13 @@ class MyApplication extends StatelessWidget {
                 fontFamily: 'Nunito',
                 letterSpacing: 2.0,
                 fontWeight: FontWeight.w400,
+              ),
+            ),
+            SizedBox(
+              height: 10.0,
+              width: 120.0,
+              child: Divider(
+                color: Colors.white,
               ),
             ),
             Container(
